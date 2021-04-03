@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Fresy</string>
+
+    <!--ActivityMain string data -->
+    <string name="search_product">Search product</string>
+    <string name="menu_title_home">Home</string>
+    <string name="menu_title_edit_profile">Edit Profile</string>
+    <string name="menu_title_manage_address">Manage Address</string>
+    <string name="menu_title_order_history">Order History</string>
+    <string name="menu_title_app_settings">App Settings</string>
+    <string name="menu_title_app_notif">Notification</string>
+    <string name="menu_title_contact_us">Contact Us</string>
+    <string name="menu_title_privacy">Privacy Policy</string>
+    <string name="menu_title_about">About Us</string>
+    <string name="logout_title">Logout</string>
+    <string name="login_title">Login</string>
+    <string name="available">Available</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="related_products">Related products</string>
+    <string name="in_cart">In Cart</string>
+
+    <!-- cart sheet-->
+    <string name="total">Total</string>
+    <string name="CONTINUE">CONTINUE</string>
+
+    <!--ActivityCart string data -->
+    <string name="title_activity_cart">Cart</string>
+    <string name="CHECK_OUT">CHECK OUT</string>
+    <string name="LOGIN">LOGIN</string>
+
+    <!--ActivityAddress string data -->
+    <string name="title_activity_address">Manage Address</string>
+    <string name="billing_address">Billing address</string>
+    <string name="shipping_address">Shipping address</string>
+    <string name="msg_failed_first_name">First name cannot empty</string>
+    <string name="msg_failed_last_name">Last name cannot empty</string>
+    <string name="msg_failed_address">Street address cannot empty</string>
+    <string name="msg_failed_city">City / town cannot empty</string>
+    <string name="msg_failed_province">Province cannot empty</string>
+    <string name="msg_failed_postcode">Postcode cannot empty</string>
+    <string name="msg_failed_email">Email cannot empty</string>
+    <string name="msg_failed_email_invalid">Email Invalid</string>
+    <string name="msg_failed_phone">Phone cannot empty</string>
+    <string name="msg_failed_street">Street address cannot empty</string>
+    <string name="updated"> updated</string>
+    <string name="state_province">State / province</string>
+    <string name="address_not_set">You have not set up this type of address yet</string>
+    <string name="failed_load_state">Cannot load state data or invalid country code</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_company">Company (optional)</string>
+    <string name="hint_country">Country / Region</string>
+    <string name="hint_address_1">Street address</string>
+    <string name="hint_address_2">Apartment, unit, etc. (optional)</string>
+    <string name="hint_state">Select state / province</string>
+    <string name="hint_city">City / Town</string>
+    <string name="hint_postcode">Postcode</string>
+    <string name="hint_phone">Phone</string>
+
+    <!--ActivityCheckout string data -->
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="section_items">Items</string>
+    <string name="section_note">Note</string>
+    <string name="section_coupon">Coupon</string>
+    <string name="section_shipping">Shipping Option</string>
+    <string name="section_payment">Payment</string>
+    <string name="loading_data">Loading data</string>
+    <string name="please_input_coupon">Please input coupon</string>
+    <string name="success_use_coupon">Success use coupon</string>
+    <string name="coupon_not_found">Coupon not found</string>
+    <string name="coupon_expired">Coupon expired</string>
+    <string name="coupon_limit_reached">Coupon limit reached</string>
+    <string name="invalid_coupon">Invalid coupon</string>
+    <string name="failed_load_coupon">Failed when load coupon</string>
+    <string name="coupon_not_met_min">Not meet min amount : </string>
+    <string name="coupon_reach_min">Reached max amount : </string>
+    <string name="failed_load_payment">Cannot load payment method</string>
+    <string name="no_payment">There\'s no payment option</string>
+    <string name="payment_method">Payment method</string>
+    <string name="failed_load_shipping">Cannot load shipping option</string>
+    <string name="no_shipping">There\'s no shipping option</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="please_select_shipping">Please select shipping</string>
+    <string name="please_edit_address">Please edit your address</string>
+    <string name="please_select_payment">Please select payment</string>
+    <string name="failed_order_msg">Failed when submit order</string>
+    <string name="SUBMIT_ORDER">SUBMIT ORDER</string>
+
+    <!--ActivityDialogNotification.java string data -->
+    <string name="title_activity_dialog_notification">Notification</string>
+    <string name="delete_successfully">Delete successfully</string>
+
+    <!--ActivityIntro string data -->
+    <!--Size three array below must be same -->
+    <string-array name="about_title_array">
+        <item>Welcome to Fresy \nvegetables store</item>
+        <item>Discover best \nproducs</item>
+        <item>Collect your \nfavorite need</item>
+        <item>Submit order \nand receive</item>
+    </string-array>
+
+    <string-array name="about_description_array">
+        <item>Fresy is vegetables online store\nplatform for everyone</item>
+        <item>Search fresh and Featured product\nWith best price</item>
+        <item>Add to cart all your daily need\nand checkout the order</item>
+        <item>We will verify your order\npay the bill and happy cooking</item>
+    </string-array>
+
+    <integer-array name="about_images_array">
+        <item>@drawable/img_intro_1</item>
+        <item>@drawable/img_intro_2</item>
+        <item>@drawable/img_intro_3</item>
+        <item>@drawable/img_intro_4</item>
+    </integer-array>
+
+    <!--ActivityLogin.java string data -->
+    <string name="title_activity_login">Login</string>
+    <string name="please_login">Please login or register before continue</string>
+    <string name="hint_username_email">Username or Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_lost_password">Lost your password ?</string>
+    <string name="dont_have_account">Don\'t have account ?</string>
+    <string name="action_register">Register</string>
+    <string name="login_email_warning">Username or Email cannot empty</string>
+    <string name="login_password_warning">Password cannot empty</string>
+    <string name="login_success_info">Login Successfully!</string>
+
+    <!--ActivityNotification string data -->
+    <string name="title_activity_notification">Notification</string>
+    <string name="notification_channel_server">Default</string>
+    <string name="msg_notif_empty">Notification is empty</string>
+    <string name="type_link">LINK</string>
+    <string name="type_image">IMAGE</string>
+
+    <!--ActivityOrderHistory string data -->
+    <string name="title_activity_order_history">Order History</string>
+    <string name="order_no">Order No</string>
+    <string name="show_more">show more</string>
+    <string name="empty_product">Empty product</string>
+    <string name="status_pending">PENDING PAYMENT</string>
+    <string name="status_on_hold">ON HOLD</string>
+    <string name="status_processing">PROCESSING</string>
+    <string name="status_completed">COMPLETED</string>
+    <string name="status_failed">FAILED</string>
+
+    <!-- ActivityOrderReceived.java & FragmentOrderDetails string data -->
+    <string name="title_fragment_order_details">Order Details</string>
+    <string name="date">Date</string>
+    <string name="email">Email</string>
+    <string name="instruction">Payment Instruction</string>
+    <string name="items">Items</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipping">Shipping</string>
+    <string name="discount">Discount</string>
+    <string name="payment">Payment</string>
+    <string name="status">Status</string>
+    <string name="not_setup_address">"Not set up this address"</string>
+    <string name="note">Note</string>
+    <string name="order_received">Order received</string>
+    <string name="check_your_email">Check your email to see bill details</string>
+    <string name="order_received_msg">Thank you. Your order has been received.</string>
+
+    <!--ActivityRegisterProfile string data -->
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="form_action_update">UPDATE</string>
+    <string name="form_action_register">REGISTER</string>
+    <string name="form_title_register">Register</string>
+    <string name="profile_username_empty">Username cannot empty</string>
+    <string name="profile_email_empty">Email cannot empty</string>
+    <string name="profile_email_invalid">Invalid email</string>
+    <string name="profile_password_empty">Password cannot empty</string>
+    <string name="register_success">Register Successfully !</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_name">Name (optional)</string>
+
+    <!--ActivityWebView string data -->
+    <string name="url_copied">URL copied to clipboard</string>
+
+    <!--ActivitySettings string data -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="developer_email">dev.dream.space@gmail.com</string>
+    <string name="pref_title_contact_us">Contact Us</string>
+    <string name="copyright">Copyright © 2019 Dream Space. All right reserved</string>
+    <string name="setting_group_notif">Notifications</string>
+    <string name="setting_group_display">Display</string>
+    <string name="setting_group_others">Other</string>
+    <string name="setting_title_notif">Push Notifications</string>
+    <string name="setting_title_ringtone">Ringtone</string>
+    <string name="setting_title_vibrate">Vibrate</string>
+    <string name="setting_title_enable_cache">Enable Image Cache</string>
+    <string name="setting_title_cache">Clear Image Cache</string>
+    <string name="setting_title_copyright">Copyright</string>
+    <string name="setting_title_contact_us">Contact Us</string>
+    <string name="setting_title_build">Build Version</string>
+    <string name="setting_title_term">Term &amp; Policies</string>
+    <string name="setting_title_rate">Rate This</string>
+    <string name="setting_title_more_apps">More Apps</string>
+    <string name="setting_title_intro">Introduction</string>
+    <string name="setting_title_about">About</string>
+    <string name="email_copied">Email Copied to Clipboard</string>
+    <string name="dialog_confirm_title">Confirmation</string>
+    <string name="message_clear_image_cache">Are you sure want to clear image cache?</string>
+    <string name="message_after_clear_image_cache">Image cache successfully clear</string>
+    <string name="app_version">Build Version</string>
+    <string name="version_unknown">Unknown</string>
+    <string name="insufficient_stock">Insufficient stock</string>
+    <string name="ringtone_default">Default</string>
+
+    <!--Other String -->
+    <string name="msg_app_out_date">Application is out of date, please update to get latest version</string>
+    <string name="logout_confirmation_text">Are you sure want to logout?</string>
+    <string name="failed_text">Something went wrong</string>
+    <string name="failed_security_text">App does not have access to server</string>
+    <string name="no_internet_text">You are offline</string>
+    <string name="no_item">No Item</string>
+    <string name="title_delete_confirm">Delete Confirmation</string>
+    <string name="content_delete_confirm">Are you sure want to delete all&#160;</string>
+    <string name="content_delete_one_confirm">Are you sure delete this item&#160;</string>
+    <string name="delete_success">Delete successfully</string>
+
+    <!-- Time Ago string data -->
+    <string name="just_now">Just now</string>
+    <string name="a_minute_ago">A minute ago</string>
+    <string name="minutes_ago">minute ago</string>
+    <string name="an_hour_ago">An hour ago</string>
+    <string name="hours_ago">Hours ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="days_ago">days ago</string>
+
+    <string name="failed">Failed</string>
+    <string name="info">Info</string>
+    <string name="warning">Warning</string>
+    <string name="OK">OK</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="UPDATE">UPDATE</string>
+    <string name="RETRY">RETRY</string>
+    <string name="DELETE">DELETE</string>
+    <string name="OPEN">OPEN</string>
+    <string name="SEND">SEND</string>
+    <string name="NEXT">NEXT</string>
+    <string name="SKIP">SKIP</string>
+    <string name="REMOVE">REMOVE</string>
+    <string name="USE">USE</string>
+
+</resources>
